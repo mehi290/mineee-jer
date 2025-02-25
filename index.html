@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Lifestyle Ghana | Luxury Travel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #000, #b8860b);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .hero {
+            text-align: center;
+            background: url('luxury-travel.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background: #fff;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 10px;
+        }
+        .contact {
+            text-align: center;
+            margin: 30px 0;
+        }
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .booking-form {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .booking-form input, .booking-form select, .booking-form button {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>Jerry Lifestyle Ghana - Luxury Travel Experience</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Luxury Packages</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">Your Luxury Escape in Ghana Starts Here</div>
+    <div class="container" id="services">
+        <h2 style="text-align:center">Luxury Experiences</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Luxury Resorts & Villas</h3>
+                <p>Stay in top-tier 5-star resorts, private villas, and beachfront havens.</p>
+            </div>
+            <div class="service">
+                <h3>Exclusive Cultural Tours</h3>
+                <p>Explore Ghana’s rich history with private guided tours.</p>
+            </div>
+            <div class="service">
+                <h3>VIP Safari & Yacht Tours</h3>
+                <p>Experience breathtaking wildlife safaris and luxury yacht cruises.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container contact" id="contact">
+        <h2>Book Your Luxury Travel</h2>
+        <p>For bookings and inquiries, WhatsApp us at <strong>+233 XXX XXX XXXX</strong></p>
+        <p>Email: info@jerrylifestyleghana.com</p>
+        <div class="booking-form">
+            <h3>Make a Reservation</h3>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Phone Number" required>
+                <select>
+                    <option value="">Select Package</option>
+                    <option value="resort">Luxury Resorts & Villas</option>
+                    <option value="tour">Exclusive Cultural Tours</option>
+                    <option value="safari">VIP Safari & Yacht Tours</option>
+                </select>
+                <input type="number" placeholder="Number of Guests" required>
+                <input type="date" placeholder="Check-in Date" required>
+                <button type="submit">Submit Booking Request</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Jerry Lifestyle Ghana | All Rights Reserved
+    </footer>
+</body>
+</html>
